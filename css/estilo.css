@@ -1,0 +1,234 @@
+.padre {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto  auto 100px;
+    /*justify-content: space-between;*/
+    /* align-items: center;*/
+
+}
+
+.hijo1 {
+    color: white;
+    background-color: #121920;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 1/5;
+    /*display: inline-block; */
+}
+.hijo2 {
+    background-color: #0b1d1f;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 1/3;
+    
+    /*display: inline-block; */
+}
+.hijo3 {
+    background-color: #20112b   ;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    
+    /*display: inline-block; */
+}
+
+
+.hijo4 {
+    background-color: #092e2c;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    
+    /*display: inline-block; */
+}
+.hijo5 {
+    background-color: #292a2c ;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 1/2;
+    /*display: inline-block; */
+}
+.hijo6 {
+    background-color: #0f2501;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 2/5;
+    
+    /*display: inline-block; */
+}
+.hijo7 {
+    background-color: #1b0c03;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 1/3;
+    
+    grid-row: 4/6;
+   
+    /*display: inline-block; */
+}
+.hijo8 {
+    background-color: #291525;
+    color: white;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 3/5;
+   
+    
+    
+    /*display: inline-block; */
+}
+.hijo9 {
+    background-color: #000000;
+    color: white;
+    /*height: 150px;*/
+    border-style: solid;
+    font-size: 35px;
+    grid-column: 3/5;
+    
+    
+    /*display: inline-block; */
+}
+.flex
+{
+    background-color: #230933;
+    border-style: solid;
+    border-color: white;
+    width: 1340px;
+    height: 800px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    align-content: space-around ;
+    
+    align-items: center;
+    
+    
+}
+.cuadro
+{
+    background-color: #29131c;
+    width: 290px;
+    height: 625px;
+    margin: 20px;
+    border-style: solid;
+    border-color: white;
+    
+
+    
+}
+.rectangulo
+{
+    background-color: #2c2a38;
+    width: 590px;
+    height: 300px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Cambiado a column para apilar los elementos verticalmente */
+    border-style: solid;
+    border-color: white;
+    
+}
+.r1{
+    background-color: #877f96;
+    border-style: solid;
+    border-color: white;
+    width: 540px;
+    height: 90px;
+    margin: 20px;
+}
+.R2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.r2{
+    background-color:#4c465a ;
+    border-style: solid;
+    border-color: white;
+    width: 248px;
+    height: 90px;
+    margin: 20px;
+}
+.r3{
+    background-color:#373b3b ;
+    border-style: solid;
+    border-color: white;
+    width: 248px;
+    height: 90px;
+    margin: 20px;
+}
+.cuadro1
+{
+    background-color: #29131c;
+    width: 290px;
+    height: 625px;
+    margin: 20px;
+    border-style: solid;
+    border-color: white;
+    
+}
+.bootstrap
+{
+    background-color: #0f0416;
+    border-style: solid;
+    border-color: white;
+    width: 1340px;
+    height: 100px;
+    padding: 10px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.nombre
+{
+    margin-left: 80px;
+    margin-right: 100px;
+    width: 200px;
+    height: 230px;
+    padding: 15px;
+    
+}
+.Correo
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 200px;
+    height: 230px;
+    padding: 15px;
+    
+}
+.edad
+{
+    margin-left: 100px;
+    width: 200px;
+    height: 230px;
+    padding: 15px;
+    
+}
+
